@@ -1,0 +1,221 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.name {
+    font-size: 24px;
+}
+
+.info-link {
+    color: #fff;
+    text-decoration: none;
+}
+.info.img{
+    width: 150px; /* Adjust size as needed */
+    height: 150px; /* Adjust size as needed */
+    border-radius: 50%;
+    object-fit: cover; /* Ensures the image covers the container without distortion */
+    display: block;
+    margin: 0 auto;
+}
+.download-button {
+    display: inline-block;
+    padding: 5px 16px; /* Adjust padding for button size */
+    background-color: #ccc; /* Grey background color */
+    color: #000; /* Black text color */
+    text-decoration: none; /* Remove underline */
+    border-radius: 4px; /* Rounded corners */
+    border: 1px solid #aaa; /* Border color matching the background */
+    font-size: 12px; /* Font size */
+    font-weight: bold; /* Bold text */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+    margin-top: 5px;
+}
+
+.download-button:hover {
+    background-color: #333; /* Black background color on hover */
+    color: #fff; /* White text color on hover */
+    border-color: #333; /* Border color matching the background on hover */
+}
+section {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+img {
+    width: 150px; /* Adjust size as needed */
+    height: 150px; /* Adjust size as needed */
+    border-radius: 50%;
+    object-fit: cover; /* Ensures the image covers the container without distortion */
+    display: block;
+    margin: 0 auto;
+}
+.about-img {
+    display: flex;
+    align-items: center; /* Align items vertically centered */
+    gap: 20px; /* Space between the text and image */
+}
+.project {
+    margin-bottom: 20px;
+}
+.project-button {
+    display: inline-block;
+    padding: 5px 16px; /* Adjust padding for button size */
+    background-color: #ccc; /* Grey background color */
+    color: #000; /* Black text color */
+    text-decoration: none; /* Remove underline */
+    border-radius: 4px; /* Rounded corners */
+    border: 1px solid #aaa; /* Border color matching the background */
+    font-size: 12px; /* Font size */
+    font-weight: bold; /* Bold text */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+    margin-top: 5px;
+}
+
+.project-button:hover {
+    background-color: #333; /* Black background color on hover */
+    color: #fff; /* White text color on hover */
+    border-color: #333; /* Border color matching the background on hover */
+}
+
+footer {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
+
+#map {
+    height: 200px;
+    background-color: #ddd; /* Placeholder for map */
+}
+footer {
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Align items at the top */
+    max-width: 1200px; /* Optional: Set a maximum width for the footer content */
+    margin: 0 auto; /* Center the footer content horizontally */
+}
+
+.footer-left {
+    flex: 1;
+    margin-right: 20px; /* Space between form and info section */
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Space between form elements */
+}
+
+.contact-form h3 {
+    margin-top: 0;
+}
+
+.contact-form label {
+    margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.contact-form button {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.contact-form button:hover {
+    background-color: #555;
+}
+
+.footer-right {
+    flex: 1;
+}
+
+
+
+.footer-right p {
+    margin: 0 0 10px 0; /* Space below the address */
+}
+
+.logos {
+    display: flex;
+    gap: 10px; /* Space between logos */
+}
+
+.logosimg {
+    width: 50px; /* Adjust size as needed */
+    height: auto;
+}
+.footer .col-md-3 {
+    flex: 1;
+    max-width: 25%;
+    padding: 0 15px;
+}
+
+.footer h5 {
+    
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-top: 0;
+    color:rgb(11, 11, 11) ;
+}
+
+.footer ul {
+    padding: 0;
+    list-style: none;
+}
+
+
+
+.footer ul li a {
+    color:black ;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer ul li a:hover {
+    color: #007bff;
+}
+.logos {
+    max-width: 500px;
+    display: flex;
+    justify-content: center; /* Center logos horizontally */
+    align-items: center; /* Center logos vertically (if needed) */
+    gap: 10px; /* Space between logos */
+    margin: 0 auto; /* Center the container within its parent */
+}
+
+.logos a img {
+    width: 30px; /* Adjust size as needed */
+    height: auto;
+    margin: 15px;
+}
