@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         try {
             // Send the JSON data using fetch API
-            const response = await fetch('http://localhost:8000/api/form/submit', {
+            const response = await fetch('https://portfolio-backend-2nw4.onrender.com/api/form/submit', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json', // Specify that you're sending JSON
